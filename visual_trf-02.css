@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap');
-
-
+    
+    
 #feed{
 width: 100%;
-padding:50px;
+padding:30px;
 font-family:System-ui;
 font-weight: bold;
 color: #242424;
@@ -42,13 +42,13 @@ color: rgb(255, 255, 255);}
 .toggle-content{
     display: grid;
     row-gap: 1.5rem;
+    width: 40px;
 
 }
 
 .toggle-label{
     cursor: pointer;
-    padding-block: .5rem;
-
+    
 }
 
 .toggle-check{
@@ -102,20 +102,12 @@ color: rgb(255, 255, 255);}
 
 .input-bsc{
     border: 0px;
-    margin: 600px;
+    margin-left: 500px;
+
     border-radius: 5px;
     opacity: 0.3;
     padding: 0.6rem 20rem 0.5rem 30.4px;
-
 }
-
-
-
-
-
-
-
-
 
  .image{
     width: 40px;
@@ -123,14 +115,14 @@ color: rgb(255, 255, 255);}
     border-radius: 100px;
     float: right;
     margin-top: 0px;
-    margin-right: 300px;
-    opacity: 0.7;
+    margin-right: -406px;
+    opacity: 0.5;
 }
 .sidebar{
     position: fixed;
-    width: 100px;
+    width: 65px;
     height:100%;
-    padding-top: 30px;
+    padding-top: 4px;
     left: 0%;
     background: #EBEBEB;
 }
@@ -149,97 +141,86 @@ color: rgb(255, 255, 255);}
     margin-bottom: 20px;
 
 }
+#span{
+    font-size: 7px;
+    margin: 0%;
+    padding-top: 0%;
+    display: block;
+}
+
 .sidebar #icons {
     display: block;
+ 
     width: 100%;
-    line-height: 300%;
-    text-decoration: none;
-    font-size: 20px;
-    color: #000000;
-    padding-left: 10px;
-    box-sizing: border-box;
+    line-height: 100%;
+    font-size: 25px;
+    color: #727272;
+    padding-left: 5px;
+
 }
 
 #icons-notificacao{
-    color: #5B5FC7;
+    color: #4B3391;
     display: block;
     width: 100%;
-    line-height: 300%;
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 10px;
-    box-sizing: border-box;
+    line-height: 100%;
+    font-size: 25px;
+    padding-left: 5px;
+
 }
 
 .div2{
     position: relative;
     width: 400px;
     height: 65px;
-    margin-left: 100px;
-    background: #F0F0F0;
-    box-shadow: inset -0.1px 0px 2px;
+    margin-left: 65px;
+    background: #fff;
+
 }
 
 .div3{
         position: fixed;
         width: 400px;
-        height: 640px;
-        margin-left: 100px;
-        background: #F0F0F0;
-        box-shadow: -0.1px 2px 2px;
+        height: 689px;
+        margin-left: 65px;
+        background: #fff;
 }
-.div4{
-    position: relative;
-    width: 1278px;
-    height: 63px;
-    margin-top: -65px;
-    margin-left: 500px;
-    background: #FAFAFA;
 
+
+.div4{
+
+position: relative;
+
+width: 1278px;
+
+height: 63px;
+
+margin-top: -65px;
+
+margin-left: 401px;
+
+background: #FAFAFA;
+
+box-shadow: 0px 1px 7px 0px;
 }          
   .div04{
-
-        display: flex;
-        line-height: 500%;
-        text-align:left;
-        font-size: 13px;
-       }
-  .div5{
-        position: relative;
-        width: 427px;
-        height: 640px;
-        margin-top: 0px;
-        margin-left: 500px;
-        background: #FAFAFA;
-        box-shadow: -0.1px  0.1px;
+    background: #fff;
+    display: flex;
+    line-height: 500%;
+    text-align:left;
+    font-size: 13px;
     }
-
-
-#nao-lidos{
-    position: relative;
-    margin-left: 70px;
-    line-height: 400%;
-
-}
-
-
-#left{
- color: #FAFAFA;
- opacity: 0.3;
-padding-top: 1
-00px; 
- margin-left: 100%;
- 
-}
-#esquerda{
-    
-        color: #FAFAFA;
-        opacity: 0.3;
-        left: 0%;
-        margin-left: 300%;
-
-       }
-
+  .div5{
+        position: absolute;
+        width: 1138px;
+        height: 691px;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 401px;
+        background: #FAFAFA;
+        box-shadow: 0px 8px 7px 0px;
+    }
 
        #ch{
     margin-right: 2%;
@@ -250,5 +231,150 @@ padding-top: 1
 margin-right: 2%;
        }
 
+#tres-pontos{
+    color: #727272;
+    width: 50px;
+    height: 50px;
+    float: right;
+    position:absolute;
+    top:25px;
+    right:0px;
+    bottom:0px;
+    left: 1327px;
+    opacity: 0.7;
+}
 
+.naolida{
     
+    position: absolute;
+    top: 15px;
+    bottom: 0px;
+    right: 0px;
+    left: 100px;
+    font-family:System-ui;
+
+
+}
+    
+
+
+.botao{
+    position: absolute;
+    top: 15px;
+    bottom: 0px;
+    right: 0px;
+    left: 15px;
+}
+
+.nicole{
+    background: #F0F0F0;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    top: 60px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.perdida{
+    position: absolute;
+    top: 3px;
+    bottom: 0px;
+    left: 85px;
+    right: 0px;
+    font-family: System-ui;
+}
+.nome{
+    position: absolute;
+    top: 12px;
+    bottom: 0px;
+    left: 85px;
+    right: 0px;
+    font-size: 14px;
+    font-family: System-ui;
+}
+.imgN{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 2px;
+    bottom: 0px;
+    left: 18px;
+    right: 0px;
+    border-radius: 50px;
+}
+.numero{
+    position: absolute;
+    top: 24px;
+    bottom: 0px;
+    left: 87px;
+    right: 0px;
+    font-size: 12px;
+    font-family: System-ui;
+}
+.hora{
+    position: absolute;
+    top: 6px;
+    bottom: 0px;
+    left: 366px;
+    right: 0px;
+    font-size: 11px;
+    font-family: System-ui;
+}
+.nicole2{
+    background: #F0F0F0;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.matheus{
+    background: #F0F0F0;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.marianka{
+    background: #F0F0F0;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    top: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.fernando{
+    background: #F0F0F0;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    top: 150px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.icom{
+    position: absolute;
+    top: 12px;
+    bottom: 0px;
+    left: 245px;
+    right: 0px;
+    color: #242424;
+}
+.iconi{
+    position: absolute;
+    top: 12px;
+    bottom: 0px;
+    left: 353px;
+    right: 0px;
+    color: #242424;
+}
